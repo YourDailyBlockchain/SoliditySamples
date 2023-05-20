@@ -1,0 +1,20 @@
+//SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.13;
+
+// Import Enum
+
+contract ImportEnum {
+
+    // This is saved "Enumdeclaration.sol"
+
+        enum Status {
+        Pending,
+        Shipped,
+        Accept,
+        Reject,
+        Canceled
+    }
+
+
+}
